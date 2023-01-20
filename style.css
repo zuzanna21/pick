@@ -16,15 +16,15 @@
 }
 .container_menu {
     background-color: black;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 .container_w {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     padding-top: 60px;
     padding-bottom: 60px;
    
@@ -39,7 +39,7 @@
 }
 .container_bl {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     padding-top: 60px;
     padding-bottom: 60px;
     color: white;
@@ -47,7 +47,7 @@
 }
 .container_br {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     padding-top: 60px;
     padding-bottom: 60px;
     color: white;
@@ -63,7 +63,7 @@
 nav{
     position:fixed;
     z-index:200;
-    top:583px;
+    bottom: 0;
     width:100%
 }
 .header {
@@ -112,15 +112,16 @@ p {
     text-align: center;
 }
 .logo {
-    width: 52%;
+    width: 54%;
     height: auto;
 }
 .shop {
-    width: 8%;
+    width: 6%;
     height: auto;
 }
 .p1 img {
-    width: 100%;
+    width: 90%;
+   margin-top:-40px;
 }
 .p2 img {
     width: 100%;
@@ -139,65 +140,66 @@ p {
     margin-right: -60px;
 }
 .wave_nav {
-    background-image: url("./img/nav/wave.svg");
+    background-image: url("./img/nav/wave.png");
     width: 100%;
     height: 16px;
     background-repeat: no-repeat;
     background-size: auto 16px;
 }
 .wave_b {
-    width: 100%;
-    height: 16px;
-    background-image: url("./img/menu/wave.svg");
-    background-repeat: no-repeat;
-    background-size: auto 16px;
+    height:34px;
+    background-image: url("./img/menu/wave_p.png");
+background-size:cover;
+
+
+    
 }
 .wave2_t {
     width: 100%;
-    height: 15px;
-    background-image: url("./img/p2/wave_t.svg");
+    height: 14px;
+    background-image: url("./img/p2/wave_t.png");
     background-repeat: no-repeat;
     background-size: auto 15px;
 }
 .wave2_b {
     width: 100%;
     height:22px;
-    background-image: url("./img/p2/wave_b.svg");
+    background-image: url("./img/p2/wave_b.png");
     background-repeat: no-repeat;
     background-size: auto 22px;
 }
 .wave4_t {
     width: 100%;
     height: 27px;
-    background-image: url("./img/p4/wave_t.svg");
+    background-image: url("./img/p4/wave_t.png");
     background-repeat: no-repeat;
     background-size: auto 27px;
 }
 .wave4_b {
     width: 100%;
     height: 24px;
-    background-image: url("./img/p4/wave_b.svg");
+    background-image: url("./img/p4/wave_b.png");
     background-repeat: no-repeat;
     background-size: auto 24px;
 }
 .wave6_t {
     width: 100%;
     height: 16px;
-    background-image: url("./img/p6/wave_t.svg");
+    background-image: url("./img/p6/wave_t.png");
     background-repeat: no-repeat;
     background-size: auto 16px;
 }
 .wave6_b {
     width: 100%;
     height: 52px;
-    background-image: url("./img/p6/wave_b.svg");
+    background-image: url("./img/p6/wave_b.png");
     background-repeat: no-repeat;
     background-size: auto 52px;
 }
 .wave_f {
     width: 100%;
     height: 38px;
-    background-image: url("./img/footer/wave.svg");
+    background-image: url("./img/footer/wave.png");
     background-repeat: no-repeat;
     background-size: auto 38px;
    
@@ -286,6 +288,7 @@ p {
 .buttons_p1 {
     margin-left: auto;
     margin-right: auto;
+    margin-top:-20px;
 }
 .hr1 {
       
@@ -496,8 +499,9 @@ p {
     }
 
     .wave_b {
-        height: 28px;
-        background-size: auto 28px;
+       height:45px;
+        background-image: url("./img/menu/wave.png");
+      
     }
 
     .wave2_t {
@@ -725,4 +729,8 @@ p {
     .h1_f{
         font-size:30px;
     }
+
+
+
+
 }
